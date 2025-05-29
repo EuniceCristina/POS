@@ -1,4 +1,4 @@
-from models import Leitor, Livro, Emprestimo
+from aula2.models import Leitor, Livro, Emprestimo
 from fastapi import FastAPI, HTTPException
 from typing import List
 from datetime import date

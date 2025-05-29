@@ -2,13 +2,13 @@
 # pip freeze > requirements.txt
 
 from fastapi import FastAPI,  HTTPException
-from models import Tarefa
+from aula2.models import Tarefa
 from typing import List
 
 app = FastAPI()
 
 tarefas:List[Tarefa]=[]
-
+z
 @app.get("/tarefas/",response_model=List[Tarefa])
 def listar_tarefas():
     return tarefas

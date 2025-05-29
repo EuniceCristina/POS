@@ -1,6 +1,6 @@
 
 from fastapi import FastAPI, HTTPException
-from models import Livros, Leitor, Emprestimos, Devolucao 
+from aula2.models import Livros, Leitor, Emprestimos, Devolucao 
 from typing import List
 from secrets import token_hex
 
