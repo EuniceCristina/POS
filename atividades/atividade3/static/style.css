@@ -1,0 +1,85 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+:root{
+    --cor-primaria : blanchedalmond;
+    --cor-secundaria : chocolate ;
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu{
+    height: 30%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+}
+
+
+button{
+    width: 8%;
+    height: 25px;
+    border: 2px solid chocolate;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+   
+}
+.menu button{
+    width: 45%;
+    height: 90%;
+    border: 0;
+    border-bottom: 2px solid chocolate;
+}
+
+main{
+    padding: 2%;
+}
+.livros{
+    margin-top: 2%;
+    padding: 2%;
+    border-left: 3px solid chocolate ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#form{
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    
+}
+#form input,select{
+    width: 200px;
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+#form button{
+    width: 12%;
+    height: 25px;
+   
+}
+#form label{
+    margin-bottom: 1%;
+}
+
+button:hover{
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    
+}

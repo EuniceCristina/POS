@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 3%;
+    color: white;
+}
+
+.desHead{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+}
+
+
+
+.list{
+    width: 90%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Tarefa{
+    max-width: 200px;
+    background-color: brown;
+    height: 100px;
+}
+
+.Tarefa div{
+    min-width: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.buttonTarefa button{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid brown;
+    margin-left: 3%;
+}
+
+.addTarefa{
+    width: 20%;
+    margin-left: 40%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.addTarefa form{
+    display: flex;
+    flex-direction: column;
+}
+
+.addTarefa form button{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    border: 2px solid brown;
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+}
